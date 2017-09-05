@@ -1,1 +1,1 @@
-@[]({command: bash run.sh})
+@[]({command: "bash run.sh"})
