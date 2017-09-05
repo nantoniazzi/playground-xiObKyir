@@ -1,0 +1,1 @@
+echo "TECHIO> terminal"
