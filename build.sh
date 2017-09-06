@@ -9,4 +9,5 @@ mv vnc-redirect.html noVNC/
 /usr/bin/fluxbox &>/dev/null &
 sleep 2
 killall -9 fluxbox
+echo "" >> /root/.fluxbox/init
 echo "session.screen0.workspaces:1" >> /root/.fluxbox/init
