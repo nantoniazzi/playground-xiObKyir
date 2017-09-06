@@ -4,7 +4,6 @@ export DISPLAY=:99
 x11vnc -shared -ncache 10 -localhost -display :99 &>/dev/null &
 cd noVNC/utils
 ./launch.sh --vnc localhost:5900 &>/dev/null &
-echo "session.screen0.workspaces:1" > ~/.fluxbox/init
 fluxbox &>/dev/null &
 
 echo "TECHIO> open -p 6080 /vnc_lite.html"
