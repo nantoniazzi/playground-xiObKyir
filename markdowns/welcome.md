@@ -1,1 +1,1 @@
-@[]({stubs: [run.sh], command: "bash run.sh"})
+@[]({stubs: [], command: "bash run.sh"})
