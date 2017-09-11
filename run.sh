@@ -8,4 +8,6 @@ cd noVNC/utils
 echo "TECHIO> open -p 6080 /vnc_lite.html"
 echo "TECHIO> terminal -i 'export DISPLAY=:99;clear; sleep 1; gimp &>/dev/null &'"
 fluxbox &>/dev/null &
+sleep 1
+fluxbox &>/dev/null &
 sleep 180
