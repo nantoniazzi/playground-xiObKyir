@@ -1,11 +1,10 @@
-title : Basic template
-
-# Table of content
+title: Rich Client Proof of Concept - X11 & fluxbox & Gimp
 plan:
-  - title: Welcome # Set the page title (only displayed if your contribution has several pages)
-    statement: markdowns/welcome.md # Set the file path to the page content
-
+- title: Welcome
+  statement: markdowns/welcome.md
 projects:
   vnc:
-    runner: ubuntu:latest
     buildCommand: /bin/bash build.sh
+    runner:
+      name: ubuntu
+      version: latest
