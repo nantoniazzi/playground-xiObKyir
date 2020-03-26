@@ -1,4 +1,4 @@
-export DEBIAN_FRONTED=noninteractive
+export DEBIAN_FRONTEND=noninteractive DEBCONF_NONINTERACTIVE_SEEN=true
 echo "Europe/Paris" > /etc/timezone 
 sudo ln -fs /usr/share/zoneinfo/Europe/Paris /etc/localtime
 apt-get update
