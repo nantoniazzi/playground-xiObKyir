@@ -1,6 +1,6 @@
 export DEBIAN_FRONTED=noninteractive
-echo "Europe/PAris" > /etc/timezone 
-
+echo "Europe/Paris" > /etc/timezone 
+sudo ln -fs /usr/share/zoneinfo/Europe/Paris /etc/localtime
 apt-get update
 #apt-get -y install ca-certificates
 apt-get -y install xvfb x11vnc x11-apps net-tools git ca-certificates python apt-utils python-numpy gimp fluxbox psmisc
